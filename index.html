@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial;
+          padding: 10px;
+          background: #f1f1f1;
+        }
+        .header {
+          padding: 30px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          background: rgb(247, 139, 68);
+        }
+        .header h1 {
+          font-size: 50px;
+        }
+        .topnav {
+          overflow: hidden;
+          background-color: rgb(14, 13, 13);
+        }
+        .topnav a {
+          float: left;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        .columna {   
+          float: right ;
+          width: 76%;
+          margin-left: 5px;
+        }
+        .columna2 {
+          float: left;;
+          width: 22%;
+          background-color: #f1f1f1;
+          
+        }
+        img {
+            margin-right: 20px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        .card {
+          background-color: white;
+          padding: 20px;
+          margin-top: 20px;
+          margin-right: 20px;
+          
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background: #ddd;
+          margin-top: 20px;
+          padding-bottom: 10px;
+        }
+        @media screen and (max-width: 800px) {
+            .columna, .columna2 {   
+            width: 100%;
+            padding: 0;
+          }
+        }
+        @media screen and (max-width: 400px) {
+          .topnav a {
+            float: none;
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h1>The guitar store</h1>
+          <p>De Musicos para Musicos.</p>
+        </div>
+        
+        <div class="topnav">
+          <a href="#">Instrumentos</a>
+          <a href="#">Audio profesional</a>
+          <a href="#">Proyectos</a>
+          <a href="#" style="float:right">Saber mas</a>
+        </div>
+        
+        <div class="row">
+          <div class="columna">
+            <div class="card">
+              <h2>zurdos?</h2>
+              <h5>Enero 8, 2021</h5>
+              <img src="tienda2.jpg" width="400px" height="200px">
+              <p>No hay problema.</p>
+              <p>Al mantener una alta variedad de instrumentos los modelos para zurdo no son problema,tambien es posible traer desde el extragenro via reverb.</p>
+            </div>
+            <div class="card">
+              <h2>Gran variedad en instrumentos</h2>
+              <h5>Nuevos proveedores, enero 15, 2021</h5>
+              <img src="tienda3.jpg" width="400px" height="200px">
+              <p>strymon , mooer.</p>
+              <p>Son algunas de las nuevas sorpresas que estaremos precentando en este verano 2021.</p>
+            </div>
+          </div>
+          <div class="columna2">
+            <div class="card">
+              <h2>Acerca de nosotros </h2>
+              <img src="tenor.gif" >
+              <p>Somos los distribuidores de instrumentos y audio, con mayor stock y variedad en el norte. </p>
+            </div>
+            <div class="card">
+              <img src="oferta_animado.gif" style="margin-left: 5px;"></div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer">
+            <p>Para mas información contactanos a nuestro Mail tiendanorte@theguitarstore.com</p>
+            <p style="padding-bottom: 0px;">&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <img src="i.png" style="padding-top: 0px;margin-bottom: 5px;" height="160px">
+        </div>
+        
+        </body>
+</html>
